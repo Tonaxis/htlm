@@ -1,5 +1,5 @@
 import fs from "fs";
-import path from "path";
+import path from "node:path";
 import { Config } from "./types";
 
 const DEFAULT_CONFIG: Config = {
